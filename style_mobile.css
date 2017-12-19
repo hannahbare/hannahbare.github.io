@@ -1,0 +1,190 @@
+@import 'reset.css';
+
+body {
+  display: flex;
+  font-size: 10px;
+}
+
+.container { 
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.heading {
+  background-color: #61503D;
+  color: white;
+  height: 33.33%;
+  flex-basis: 66.66%;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 3rem 0 2rem 3rem;
+/*  font-weight: bold;*/
+}
+
+p { 
+  font-size: 1rem; 
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+
+.top-btns {
+  font-size: .75rem;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  width: 100px;
+  background-color: #61503D;
+  color: white;
+  border-width: .15rem;
+}
+
+#about-tony {
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+#contact-tony {
+}
+
+.box {
+  background-color: #D2C0A7;
+  font-size: 1rem;
+  height: 33.33%;
+  flex: 1;
+  flex-basis: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box img {
+  width: 3rem;
+  padding-bottom: 1.5rem;
+}
+.box1 {
+
+  background-color: #974739;
+}
+
+.box2 {
+  background-color: #82852C;
+}
+
+.box3 {
+  background-color: #BDAC8E;
+}
+
+.box4 {
+  background-color: #61503D;
+}
+
+.box5 {
+  background-color: #BDAC8E;
+
+}
+
+.box6 {
+  background-color: #974739;
+}
+
+.box7 {
+  background-color: #82852C;
+}
+
+.right-photo {
+  background-image: url('treerings.jpg');
+  background-repeat: no-repeat;
+  align-self: right;
+  flex: 2;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-photo img {
+  width: 3rem;
+  margin: 1.5rem;
+}
+
+@media (min-width: 725px) {
+
+/*body {
+  width: 100%;
+}*/
+
+.container { 
+  font-family: 'Raleway', sans-serif;
+/*  display: flex;*/
+  width: 100%;
+/*  flex-wrap: wrap;*/
+}
+
+.heading {
+  background-color: #61503D;
+  color: white;
+  height: 33.33%;
+/*  flex-basis: 66.66%;*/
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 4rem 0 2rem 3rem;
+  font-weight: bold;
+}
+
+p { 
+  font-size: 2rem; 
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+
+.top-btns {
+  font-size: 1rem;
+  padding: .5rem;
+  margin-bottom: 4rem;
+  width: 175px;
+  background-color: #61503D;
+  color: white;
+  border-width: .25rem;
+}
+
+#about-tony {
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+
+.box {
+  font-size: 1.25rem;
+  height: 33.33%;
+  flex: 1;
+  flex-basis: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box img {
+  width: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.right-photo {
+  background-image: url('treerings.jpg');
+  background-repeat: no-repeat;
+  /*align-self: right;*/
+  flex: 2;
+  /*height: 100vh;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-photo img {
+  width: 2rem;
+}
